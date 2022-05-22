@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dK:/kyber90sfpga/kyber90sfpga/modelsim-testnewversion
+T_opt
+!s110 1648860876
+V4VP4n^Z<8DBi]NAfi8mhI3
+04 11 4 work modhalfq_tb fast 0
+=1-50ebf6b02878-62479eca-32a-3808
+!s124 OEM10U7 
+o-quiet -auto_acc_if_foreign -work work -suppress 12110
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R0
+vfflopx
+Z2 !s110 1648861486
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 c[XDNRVEALC[aoHXQC2K[2
+IUh^n9m;g>C0<BGXIbB11G1
+Z4 dK:/kyber90sfpga/Example/modelsim-modhalfq
+Z5 w1630829153
+8K:/kyber90sfpga/Example/fflopx.v
+FK:/kyber90sfpga/Example/fflopx.v
+!i122 8
+L0 14 25
+Z6 OL;L;2021.2;73
+31
+Z7 !s108 1648861486.000000
+!s107 K:/kyber90sfpga/Example/fflopx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/kyber90sfpga/Example/fflopx.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vmodhalfq
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 F=8<7e4fz5Wd0lDYW<CKz2
+IVZW@kIBg@CRB`4<bikJe93
+R4
+w1641442591
+8K:/kyber90sfpga/Example/modhalfq.v
+FK:/kyber90sfpga/Example/modhalfq.v
+!i122 9
+L0 1 54
+R6
+31
+R7
+!s107 K:/kyber90sfpga/Example/modhalfq.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/kyber90sfpga/Example/modhalfq.v|
+!i113 0
+R8
+R1
+vmodhalfq_tb
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 j[DYPVCl:6JB@2mYPRilJ2
+IX48Do]5<AR`863oadUR]l0
+R4
+w1648861479
+8K:/kyber90sfpga/Example/modhalfq_tb.v
+FK:/kyber90sfpga/Example/modhalfq_tb.v
+!i122 10
+L0 1 44
+R6
+31
+R7
+!s107 K:/kyber90sfpga/Example/modhalfq_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/kyber90sfpga/Example/modhalfq_tb.v|
+!i113 0
+R8
+R1
+vmux_xx1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 llEm9NFG0WaAd`K6Vm_6?0
+I=MRne?=g^gl<>h@=:FRbA0
+R4
+R5
+8K:/kyber90sfpga/Example/mux_xx1.v
+FK:/kyber90sfpga/Example/mux_xx1.v
+!i122 11
+L0 14 30
+R6
+31
+R7
+!s107 K:/kyber90sfpga/Example/mux_xx1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|K:/kyber90sfpga/Example/mux_xx1.v|
+!i113 0
+R8
+R1

@@ -1,7 +1,7 @@
 module modhalfq_tb ();
 parameter WIDTH = 12;
 
-reg [WIDTH-1:0] a,c;
+reg [WIDTH-1:0] a,c,d;
 reg clk,rst;
 
 reg fail;
@@ -32,11 +32,12 @@ modhalfq imodhalfq
 
 always@(posedge clk) begin
   #50 a = $random;
-  c = (a*(1/2))%3329;
+  c = a/2;
+  d = a/2 +1665;
   #50 
-  if (b !== c) begin
+  if ((b !== c)&(b !== d)) begin
     $display ("Mismatch at time %d",$time);
-    $display (" ket qua la %d",c," nhung lai tinh ra la %d",b);
+    $display ("khi do a=%d",a, "ket qua la %d",c," nhung lai tinh ra la %d",b);
     fail = 1;
   end
 end

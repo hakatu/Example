@@ -1,0 +1,29 @@
+K:/kyber90sfpga/Example/fflopx.v {1 {vlog -work work -vopt -stats=none K:/kyber90sfpga/Example/fflopx.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module fflopx
+
+Top level modules:
+	fflopx
+
+} {} {}} K:/kyber90sfpga/Example/modhalfq.v {1 {vlog -work work -vopt -stats=none K:/kyber90sfpga/Example/modhalfq.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module modhalfq
+
+Top level modules:
+	modhalfq
+
+} {} {}} K:/kyber90sfpga/Example/modhalfq_tb.v {1 {vlog -work work -vopt -stats=none K:/kyber90sfpga/Example/modhalfq_tb.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module modhalfq_tb
+
+Top level modules:
+	modhalfq_tb
+
+} {} {}} K:/kyber90sfpga/Example/mux_xx1.v {1 {vlog -work work -vopt -stats=none K:/kyber90sfpga/Example/mux_xx1.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mux_xx1
+
+Top level modules:
+	mux_xx1
+
+} {} {}}

@@ -1,0 +1,1139 @@
+# Compile of fflopx.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of fflopx.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v failed with 2 errors.
+# Compile of mux_xx1.v was successful.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of fflopx.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -novopt -suppress 12110,8891 work.modhalfq_tb
+# vsim -novopt -suppress 12110,8891 work.modhalfq_tb 
+# Start time: 10:34:25 on Apr 02,2022
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq_tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq_tb
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.fflopx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.fflopx
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.mux_xx1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mux_xx1
+vsim work.modhalfq_tb
+# End time: 10:34:44 on Apr 02,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 7, Suppressed Warnings: 1
+# vsim work.modhalfq_tb 
+# Start time: 10:34:44 on Apr 02,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.modhalfq_tb(fast)
+vsim -novopt work.modhalfq_tb
+# End time: 10:36:03 on Apr 02,2022, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 1
+# vsim -novopt work.modhalfq_tb 
+# Start time: 10:36:03 on Apr 02,2022
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 10:36:03 on Apr 02,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -novopt -suppress 12110 work.modhalfq_tb
+# vsim -novopt -suppress 12110 work.modhalfq_tb 
+# Start time: 10:36:33 on Apr 02,2022
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq_tb
+# Loading work.modhalfq
+# Loading work.fflopx
+# Loading work.mux_xx1
+vsim -novopt -suppress 12110,8891 work.modhalfq_tb
+# End time: 10:36:56 on Apr 02,2022, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# vsim -novopt -suppress 12110,8891 work.modhalfq_tb 
+# Start time: 10:36:56 on Apr 02,2022
+# Loading work.modhalfq_tb
+# Loading work.modhalfq
+# Loading work.fflopx
+# Loading work.mux_xx1
+run
+# Compile of fflopx.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq_tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq_tb
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.fflopx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.fflopx
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.mux_xx1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mux_xx1
+vsim -novopt -suppress 12110,8891 work.modhalfq_tb
+# End time: 10:38:07 on Apr 02,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 1, Suppressed Warnings: 1
+# vsim -novopt -suppress 12110,8891 work.modhalfq_tb 
+# Start time: 10:38:07 on Apr 02,2022
+# Loading work.modhalfq_tb
+# Loading work.modhalfq
+# Loading work.fflopx
+# Loading work.mux_xx1
+run
+# Mismatch at time                  201
+# khi do a=3713ket qua la 1856 nhung lai tinh ra la 3521
+# Mismatch at time                  301
+# khi do a=1545ket qua la  772 nhung lai tinh ra la 2437
+# Mismatch at time                  401
+# khi do a=1635ket qua la  817 nhung lai tinh ra la 2482
+# Mismatch at time                  501
+# khi do a=2829ket qua la 1414 nhung lai tinh ra la 3079
+# Mismatch at time                  601
+# khi do a=2445ket qua la 1222 nhung lai tinh ra la 2887
+# Mismatch at time                  701
+# khi do a=1125ket qua la  562 nhung lai tinh ra la 2227
+# Mismatch at time                  901
+# khi do a= 769ket qua la  384 nhung lai tinh ra la 2049
+# Mismatch at time                 1001
+# khi do a=3341ket qua la 1670 nhung lai tinh ra la 3335
+# Mismatch at time                 1201
+# khi do a=3389ket qua la 1694 nhung lai tinh ra la 3359
+# Mismatch at time                 1301
+# khi do a=2029ket qua la 1014 nhung lai tinh ra la 2679
+# Mismatch at time                 1501
+# khi do a=2553ket qua la 1276 nhung lai tinh ra la 2941
+# Mismatch at time                 1701
+# khi do a=1221ket qua la  610 nhung lai tinh ra la 2275
+# Mismatch at time                 1901
+# khi do a=2021ket qua la 1010 nhung lai tinh ra la 2675
+# Mismatch at time                 2001
+# khi do a= 631ket qua la  315 nhung lai tinh ra la 1980
+# Mismatch at time                 2201
+# khi do a=2959ket qua la 1479 nhung lai tinh ra la 3144
+# Mismatch at time                 2601
+# khi do a=3781ket qua la 1890 nhung lai tinh ra la 3555
+# Mismatch at time                 2801
+# khi do a=2237ket qua la 1118 nhung lai tinh ra la 2783
+# Mismatch at time                 2901
+# khi do a=2093ket qua la 1046 nhung lai tinh ra la 2711
+# Mismatch at time                 3001
+# khi do a=1637ket qua la  818 nhung lai tinh ra la 2483
+# Mismatch at time                 3101
+# khi do a= 611ket qua la  305 nhung lai tinh ra la 1970
+# Mismatch at time                 3601
+# khi do a=3229ket qua la 1614 nhung lai tinh ra la 3279
+# Mismatch at time                 3801
+# khi do a=2067ket qua la 1033 nhung lai tinh ra la 2698
+# Mismatch at time                 3901
+# khi do a=2061ket qua la 1030 nhung lai tinh ra la 2695
+# Mismatch at time                 4001
+# khi do a=1619ket qua la  809 nhung lai tinh ra la 2474
+# Mismatch at time                 4101
+# khi do a=3435ket qua la 1717 nhung lai tinh ra la 3382
+# Mismatch at time                 4201
+# khi do a=2773ket qua la 1386 nhung lai tinh ra la 3051
+# Mismatch at time                 4501
+# khi do a=2333ket qua la 1166 nhung lai tinh ra la 2831
+# Mismatch at time                 4601
+# khi do a= 719ket qua la  359 nhung lai tinh ra la 2024
+# Mismatch at time                 4701
+# khi do a=2339ket qua la 1169 nhung lai tinh ra la 2834
+# Mismatch at time                 5301
+# khi do a= 833ket qua la  416 nhung lai tinh ra la 2081
+# Mismatch at time                 5601
+# khi do a= 649ket qua la  324 nhung lai tinh ra la 1989
+# Mismatch at time                 5701
+# khi do a=3563ket qua la 1781 nhung lai tinh ra la 3446
+# Mismatch at time                 6301
+# khi do a=2571ket qua la 1285 nhung lai tinh ra la 2950
+# Mismatch at time                 6401
+# khi do a=3697ket qua la 1848 nhung lai tinh ra la 3513
+# Mismatch at time                 6501
+# khi do a= 389ket qua la  194 nhung lai tinh ra la 1859
+# Mismatch at time                 6601
+# khi do a=1359ket qua la  679 nhung lai tinh ra la 2344
+# Mismatch at time                 6701
+# khi do a=  59ket qua la   29 nhung lai tinh ra la 1694
+# Mismatch at time                 7001
+# khi do a=2837ket qua la 1418 nhung lai tinh ra la 3083
+# Mismatch at time                 7101
+# khi do a=3057ket qua la 1528 nhung lai tinh ra la 3193
+# Mismatch at time                 7201
+# khi do a=3033ket qua la 1516 nhung lai tinh ra la 3181
+# Mismatch at time                 7501
+# khi do a=1439ket qua la  719 nhung lai tinh ra la 2384
+# Mismatch at time                 7601
+# khi do a= 399ket qua la  199 nhung lai tinh ra la 1864
+# Mismatch at time                 7801
+# khi do a= 183ket qua la   91 nhung lai tinh ra la 1756
+# Mismatch at time                 7901
+# khi do a=1695ket qua la  847 nhung lai tinh ra la 2512
+# Mismatch at time                 8101
+# khi do a=  91ket qua la   45 nhung lai tinh ra la 1710
+# Mismatch at time                 8201
+# khi do a=1929ket qua la  964 nhung lai tinh ra la 2629
+# Mismatch at time                 8301
+# khi do a= 585ket qua la  292 nhung lai tinh ra la 1957
+# Mismatch at time                 8501
+# khi do a= 215ket qua la  107 nhung lai tinh ra la 1772
+# Mismatch at time                 8601
+# khi do a=3153ket qua la 1576 nhung lai tinh ra la 3241
+# Mismatch at time                 9101
+# khi do a=2679ket qua la 1339 nhung lai tinh ra la 3004
+# Mismatch at time                 9201
+# khi do a=3389ket qua la 1694 nhung lai tinh ra la 3359
+# Mismatch at time                 9501
+# khi do a= 365ket qua la  182 nhung lai tinh ra la 1847
+# Mismatch at time                 9601
+# khi do a=1849ket qua la  924 nhung lai tinh ra la 2589
+# Mismatch at time                 9701
+# khi do a=3871ket qua la 1935 nhung lai tinh ra la 3600
+# Mismatch at time                 9801
+# khi do a=1747ket qua la  873 nhung lai tinh ra la 2538
+# Mismatch at time                 9901
+# khi do a=3973ket qua la 1986 nhung lai tinh ra la 3651
+# Mismatch at time                10101
+# khi do a=2395ket qua la 1197 nhung lai tinh ra la 2862
+# Mismatch at time                10201
+# khi do a=2889ket qua la 1444 nhung lai tinh ra la 3109
+# Mismatch at time                10301
+# khi do a=3647ket qua la 1823 nhung lai tinh ra la 3488
+# Mismatch at time                11101
+# khi do a=1907ket qua la  953 nhung lai tinh ra la 2618
+# Mismatch at time                11201
+# khi do a=1187ket qua la  593 nhung lai tinh ra la 2258
+# Mismatch at time                11301
+# khi do a=2095ket qua la 1047 nhung lai tinh ra la 2712
+# Mismatch at time                11401
+# khi do a= 691ket qua la  345 nhung lai tinh ra la 2010
+# Mismatch at time                11501
+# khi do a=1631ket qua la  815 nhung lai tinh ra la 2480
+# Mismatch at time                11701
+# khi do a=3575ket qua la 1787 nhung lai tinh ra la 3452
+# Mismatch at time                11801
+# khi do a=1739ket qua la  869 nhung lai tinh ra la 2534
+# Mismatch at time                12101
+# khi do a= 297ket qua la  148 nhung lai tinh ra la 1813
+# Mismatch at time                12201
+# khi do a= 749ket qua la  374 nhung lai tinh ra la 2039
+# Mismatch at time                12401
+# khi do a=1637ket qua la  818 nhung lai tinh ra la 2483
+# Mismatch at time                12501
+# khi do a= 693ket qua la  346 nhung lai tinh ra la 2011
+# Mismatch at time                12601
+# khi do a=1247ket qua la  623 nhung lai tinh ra la 2288
+# Mismatch at time                12701
+# khi do a=2425ket qua la 1212 nhung lai tinh ra la 2877
+# Mismatch at time                13101
+# khi do a=3499ket qua la 1749 nhung lai tinh ra la 3414
+# Mismatch at time                13501
+# khi do a= 765ket qua la  382 nhung lai tinh ra la 2047
+# Mismatch at time                13601
+# khi do a= 707ket qua la  353 nhung lai tinh ra la 2018
+# Mismatch at time                13901
+# khi do a=1639ket qua la  819 nhung lai tinh ra la 2484
+# Mismatch at time                14301
+# khi do a=1913ket qua la  956 nhung lai tinh ra la 2621
+# Mismatch at time                14601
+# khi do a=3475ket qua la 1737 nhung lai tinh ra la 3402
+# Mismatch at time                14801
+# khi do a=2649ket qua la 1324 nhung lai tinh ra la 2989
+# Mismatch at time                14901
+# khi do a=2523ket qua la 1261 nhung lai tinh ra la 2926
+# Mismatch at time                15001
+# khi do a=3661ket qua la 1830 nhung lai tinh ra la 3495
+# Mismatch at time                15101
+# khi do a=2009ket qua la 1004 nhung lai tinh ra la 2669
+# Mismatch at time                15201
+# khi do a=1645ket qua la  822 nhung lai tinh ra la 2487
+# Mismatch at time                15601
+# khi do a= 405ket qua la  202 nhung lai tinh ra la 1867
+# Mismatch at time                15901
+# khi do a= 503ket qua la  251 nhung lai tinh ra la 1916
+# Mismatch at time                16001
+# khi do a=1897ket qua la  948 nhung lai tinh ra la 2613
+# Mismatch at time                16401
+# khi do a=1069ket qua la  534 nhung lai tinh ra la 2199
+# Mismatch at time                16501
+# khi do a= 199ket qua la   99 nhung lai tinh ra la 1764
+# Mismatch at time                16901
+# khi do a=1789ket qua la  894 nhung lai tinh ra la 2559
+# Mismatch at time                17001
+# khi do a=1833ket qua la  916 nhung lai tinh ra la 2581
+# Mismatch at time                17401
+# khi do a=1597ket qua la  798 nhung lai tinh ra la 2463
+# Mismatch at time                17701
+# khi do a=1139ket qua la  569 nhung lai tinh ra la 2234
+# Mismatch at time                18101
+# khi do a=1493ket qua la  746 nhung lai tinh ra la 2411
+# Mismatch at time                18301
+# khi do a= 185ket qua la   92 nhung lai tinh ra la 1757
+# Mismatch at time                18401
+# khi do a= 311ket qua la  155 nhung lai tinh ra la 1820
+# Mismatch at time                18901
+# khi do a= 893ket qua la  446 nhung lai tinh ra la 2111
+# Mismatch at time                19401
+# khi do a= 219ket qua la  109 nhung lai tinh ra la 1774
+# Mismatch at time                19501
+# khi do a=1743ket qua la  871 nhung lai tinh ra la 2536
+# Mismatch at time                19601
+# khi do a=2937ket qua la 1468 nhung lai tinh ra la 3133
+# Mismatch at time                19801
+# khi do a=3681ket qua la 1840 nhung lai tinh ra la 3505
+# Mismatch at time                19901
+# khi do a=2327ket qua la 1163 nhung lai tinh ra la 2828
+# Mismatch at time                20001
+# khi do a=2209ket qua la 1104 nhung lai tinh ra la 2769
+# Mismatch at time                20301
+# khi do a=2549ket qua la 1274 nhung lai tinh ra la 2939
+# Mismatch at time                20401
+# khi do a=2101ket qua la 1050 nhung lai tinh ra la 2715
+# Mismatch at time                20501
+# khi do a=2601ket qua la 1300 nhung lai tinh ra la 2965
+# Mismatch at time                20601
+# khi do a=1473ket qua la  736 nhung lai tinh ra la 2401
+# Mismatch at time                20701
+# khi do a=1221ket qua la  610 nhung lai tinh ra la 2275
+# Mismatch at time                20901
+# khi do a=2891ket qua la 1445 nhung lai tinh ra la 3110
+# Mismatch at time                21001
+# khi do a= 627ket qua la  313 nhung lai tinh ra la 1978
+# Mismatch at time                21501
+# khi do a=3497ket qua la 1748 nhung lai tinh ra la 3413
+# Mismatch at time                21601
+# khi do a=3233ket qua la 1616 nhung lai tinh ra la 3281
+# Mismatch at time                21901
+# khi do a= 159ket qua la   79 nhung lai tinh ra la 1744
+# Mismatch at time                22201
+# khi do a=1165ket qua la  582 nhung lai tinh ra la 2247
+# Mismatch at time                22501
+# khi do a=2169ket qua la 1084 nhung lai tinh ra la 2749
+# Mismatch at time                22801
+# khi do a= 275ket qua la  137 nhung lai tinh ra la 1802
+# Mismatch at time                22901
+# khi do a=2411ket qua la 1205 nhung lai tinh ra la 2870
+# Mismatch at time                23001
+# khi do a=3783ket qua la 1891 nhung lai tinh ra la 3556
+# Mismatch at time                23401
+# khi do a=1465ket qua la  732 nhung lai tinh ra la 2397
+# Mismatch at time                23701
+# khi do a=2943ket qua la 1471 nhung lai tinh ra la 3136
+# Mismatch at time                24201
+# khi do a=3773ket qua la 1886 nhung lai tinh ra la 3551
+# Mismatch at time                24601
+# khi do a=2473ket qua la 1236 nhung lai tinh ra la 2901
+# Mismatch at time                24701
+# khi do a=2209ket qua la 1104 nhung lai tinh ra la 2769
+# Mismatch at time                24901
+# khi do a=2811ket qua la 1405 nhung lai tinh ra la 3070
+# Mismatch at time                25001
+# khi do a=3595ket qua la 1797 nhung lai tinh ra la 3462
+# Mismatch at time                25101
+# khi do a= 239ket qua la  119 nhung lai tinh ra la 1784
+# Mismatch at time                25201
+# khi do a=3529ket qua la 1764 nhung lai tinh ra la 3429
+# Mismatch at time                25401
+# khi do a=2165ket qua la 1082 nhung lai tinh ra la 2747
+# Mismatch at time                25501
+# khi do a=1679ket qua la  839 nhung lai tinh ra la 2504
+# Mismatch at time                25601
+# khi do a=3947ket qua la 1973 nhung lai tinh ra la 3638
+# Mismatch at time                25901
+# khi do a= 411ket qua la  205 nhung lai tinh ra la 1870
+# Mismatch at time                26201
+# khi do a=  45ket qua la   22 nhung lai tinh ra la 1687
+# Mismatch at time                26301
+# khi do a=3915ket qua la 1957 nhung lai tinh ra la 3622
+# Mismatch at time                26601
+# khi do a=1293ket qua la  646 nhung lai tinh ra la 2311
+# Mismatch at time                26901
+# khi do a=3025ket qua la 1512 nhung lai tinh ra la 3177
+# Mismatch at time                27101
+# khi do a=1089ket qua la  544 nhung lai tinh ra la 2209
+# Mismatch at time                27201
+# khi do a=1083ket qua la  541 nhung lai tinh ra la 2206
+# Mismatch at time                27401
+# khi do a=2387ket qua la 1193 nhung lai tinh ra la 2858
+# Mismatch at time                27601
+# khi do a= 603ket qua la  301 nhung lai tinh ra la 1966
+# Mismatch at time                27901
+# khi do a= 883ket qua la  441 nhung lai tinh ra la 2106
+# Mismatch at time                28301
+# khi do a= 569ket qua la  284 nhung lai tinh ra la 1949
+# Mismatch at time                28401
+# khi do a=1765ket qua la  882 nhung lai tinh ra la 2547
+# Mismatch at time                28501
+# khi do a=3233ket qua la 1616 nhung lai tinh ra la 3281
+# Mismatch at time                28601
+# khi do a=3883ket qua la 1941 nhung lai tinh ra la 3606
+# Mismatch at time                28701
+# khi do a=3457ket qua la 1728 nhung lai tinh ra la 3393
+# Mismatch at time                28901
+# khi do a=1319ket qua la  659 nhung lai tinh ra la 2324
+# Mismatch at time                29001
+# khi do a=2465ket qua la 1232 nhung lai tinh ra la 2897
+# Mismatch at time                29101
+# khi do a=3615ket qua la 1807 nhung lai tinh ra la 3472
+# Mismatch at time                29801
+# khi do a= 689ket qua la  344 nhung lai tinh ra la 2009
+# Mismatch at time                29901
+# khi do a=1365ket qua la  682 nhung lai tinh ra la 2347
+# Mismatch at time                30001
+# khi do a=3821ket qua la 1910 nhung lai tinh ra la 3575
+# Mismatch at time                30101
+# khi do a=2859ket qua la 1429 nhung lai tinh ra la 3094
+# Mismatch at time                30201
+# khi do a=3061ket qua la 1530 nhung lai tinh ra la 3195
+# Mismatch at time                30301
+# khi do a= 941ket qua la  470 nhung lai tinh ra la 2135
+# Mismatch at time                30401
+# khi do a= 551ket qua la  275 nhung lai tinh ra la 1940
+# Mismatch at time                30601
+# khi do a=1191ket qua la  595 nhung lai tinh ra la 2260
+# Mismatch at time                30701
+# khi do a=1767ket qua la  883 nhung lai tinh ra la 2548
+# Mismatch at time                30801
+# khi do a= 185ket qua la   92 nhung lai tinh ra la 1757
+# Mismatch at time                30901
+# khi do a=1609ket qua la  804 nhung lai tinh ra la 2469
+# Mismatch at time                31001
+# khi do a=3035ket qua la 1517 nhung lai tinh ra la 3182
+# Mismatch at time                31101
+# khi do a=4041ket qua la 2020 nhung lai tinh ra la 3685
+# Mismatch at time                31201
+# khi do a= 337ket qua la  168 nhung lai tinh ra la 1833
+# Mismatch at time                31301
+# khi do a=3745ket qua la 1872 nhung lai tinh ra la 3537
+# Mismatch at time                31601
+# khi do a=  69ket qua la   34 nhung lai tinh ra la 1699
+# Mismatch at time                31701
+# khi do a=1411ket qua la  705 nhung lai tinh ra la 2370
+# Mismatch at time                32201
+# khi do a=2671ket qua la 1335 nhung lai tinh ra la 3000
+# Mismatch at time                32901
+# khi do a=2757ket qua la 1378 nhung lai tinh ra la 3043
+# Mismatch at time                33201
+# khi do a= 313ket qua la  156 nhung lai tinh ra la 1821
+# Mismatch at time                33701
+# khi do a=1301ket qua la  650 nhung lai tinh ra la 2315
+# Mismatch at time                33801
+# khi do a=3809ket qua la 1904 nhung lai tinh ra la 3569
+# Mismatch at time                33901
+# khi do a=3351ket qua la 1675 nhung lai tinh ra la 3340
+# Mismatch at time                34001
+# khi do a=3651ket qua la 1825 nhung lai tinh ra la 3490
+# Mismatch at time                34101
+# khi do a= 969ket qua la  484 nhung lai tinh ra la 2149
+# Mismatch at time                34301
+# khi do a=2853ket qua la 1426 nhung lai tinh ra la 3091
+# Mismatch at time                34401
+# khi do a=3521ket qua la 1760 nhung lai tinh ra la 3425
+# Mismatch at time                34501
+# khi do a= 653ket qua la  326 nhung lai tinh ra la 1991
+# Mismatch at time                34701
+# khi do a=1799ket qua la  899 nhung lai tinh ra la 2564
+# Mismatch at time                35001
+# khi do a=1649ket qua la  824 nhung lai tinh ra la 2489
+# Mismatch at time                35101
+# khi do a=3131ket qua la 1565 nhung lai tinh ra la 3230
+# Mismatch at time                35301
+# khi do a= 759ket qua la  379 nhung lai tinh ra la 2044
+# Mismatch at time                35601
+# khi do a=1877ket qua la  938 nhung lai tinh ra la 2603
+# Mismatch at time                36101
+# khi do a=1501ket qua la  750 nhung lai tinh ra la 2415
+# Mismatch at time                36201
+# khi do a=  13ket qua la    6 nhung lai tinh ra la 1671
+# Mismatch at time                36301
+# khi do a=2379ket qua la 1189 nhung lai tinh ra la 2854
+# Mismatch at time                36401
+# khi do a= 633ket qua la  316 nhung lai tinh ra la 1981
+# Mismatch at time                36601
+# khi do a=1277ket qua la  638 nhung lai tinh ra la 2303
+# Mismatch at time                36701
+# khi do a= 635ket qua la  317 nhung lai tinh ra la 1982
+# Mismatch at time                36801
+# khi do a= 911ket qua la  455 nhung lai tinh ra la 2120
+# Mismatch at time                36901
+# khi do a=2563ket qua la 1281 nhung lai tinh ra la 2946
+# Mismatch at time                37001
+# khi do a=2531ket qua la 1265 nhung lai tinh ra la 2930
+# Mismatch at time                37101
+# khi do a= 797ket qua la  398 nhung lai tinh ra la 2063
+# Mismatch at time                37201
+# khi do a=3505ket qua la 1752 nhung lai tinh ra la 3417
+# Mismatch at time                37401
+# khi do a=3221ket qua la 1610 nhung lai tinh ra la 3275
+# Mismatch at time                37601
+# khi do a=2285ket qua la 1142 nhung lai tinh ra la 2807
+# Mismatch at time                37901
+# khi do a=1933ket qua la  966 nhung lai tinh ra la 2631
+# Mismatch at time                38501
+# khi do a= 279ket qua la  139 nhung lai tinh ra la 1804
+# Mismatch at time                39201
+# khi do a= 139ket qua la   69 nhung lai tinh ra la 1734
+# Mismatch at time                39401
+# khi do a=3621ket qua la 1810 nhung lai tinh ra la 3475
+# Mismatch at time                39701
+# khi do a=3145ket qua la 1572 nhung lai tinh ra la 3237
+# Mismatch at time                39901
+# khi do a=  61ket qua la   30 nhung lai tinh ra la 1695
+# Mismatch at time                40001
+# khi do a= 843ket qua la  421 nhung lai tinh ra la 2086
+# Mismatch at time                40201
+# khi do a=1351ket qua la  675 nhung lai tinh ra la 2340
+# Mismatch at time                40401
+# khi do a=2617ket qua la 1308 nhung lai tinh ra la 2973
+# Mismatch at time                40901
+# khi do a=1799ket qua la  899 nhung lai tinh ra la 2564
+# Mismatch at time                41101
+# khi do a=2321ket qua la 1160 nhung lai tinh ra la 2825
+# Mismatch at time                41301
+# khi do a=3659ket qua la 1829 nhung lai tinh ra la 3494
+# Mismatch at time                41401
+# khi do a= 371ket qua la  185 nhung lai tinh ra la 1850
+# Mismatch at time                41601
+# khi do a=1315ket qua la  657 nhung lai tinh ra la 2322
+# Mismatch at time                41801
+# khi do a=1481ket qua la  740 nhung lai tinh ra la 2405
+# Mismatch at time                41901
+# khi do a=1081ket qua la  540 nhung lai tinh ra la 2205
+# Mismatch at time                42001
+# khi do a= 735ket qua la  367 nhung lai tinh ra la 2032
+# Mismatch at time                42201
+# khi do a=1383ket qua la  691 nhung lai tinh ra la 2356
+# Mismatch at time                42301
+# khi do a= 413ket qua la  206 nhung lai tinh ra la 1871
+# Mismatch at time                42601
+# khi do a=3913ket qua la 1956 nhung lai tinh ra la 3621
+# Mismatch at time                42701
+# khi do a=2777ket qua la 1388 nhung lai tinh ra la 3053
+# Mismatch at time                43001
+# khi do a=3987ket qua la 1993 nhung lai tinh ra la 3658
+# Mismatch at time                43101
+# khi do a= 483ket qua la  241 nhung lai tinh ra la 1906
+# Mismatch at time                43401
+# khi do a=3677ket qua la 1838 nhung lai tinh ra la 3503
+# Mismatch at time                43701
+# khi do a=2091ket qua la 1045 nhung lai tinh ra la 2710
+# Mismatch at time                43801
+# khi do a=3897ket qua la 1948 nhung lai tinh ra la 3613
+# Mismatch at time                44101
+# khi do a=2393ket qua la 1196 nhung lai tinh ra la 2861
+# Mismatch at time                44401
+# khi do a=2455ket qua la 1227 nhung lai tinh ra la 2892
+# Mismatch at time                44501
+# khi do a=2011ket qua la 1005 nhung lai tinh ra la 2670
+# Mismatch at time                44701
+# khi do a= 955ket qua la  477 nhung lai tinh ra la 2142
+# Mismatch at time                44901
+# khi do a=3087ket qua la 1543 nhung lai tinh ra la 3208
+# Mismatch at time                45001
+# khi do a=1641ket qua la  820 nhung lai tinh ra la 2485
+# Mismatch at time                45201
+# khi do a=2393ket qua la 1196 nhung lai tinh ra la 2861
+# Mismatch at time                45301
+# khi do a=2501ket qua la 1250 nhung lai tinh ra la 2915
+# Mismatch at time                45401
+# khi do a=1487ket qua la  743 nhung lai tinh ra la 2408
+# Mismatch at time                45601
+# khi do a=2129ket qua la 1064 nhung lai tinh ra la 2729
+# Mismatch at time                45701
+# khi do a=1129ket qua la  564 nhung lai tinh ra la 2229
+# Mismatch at time                45801
+# khi do a=3447ket qua la 1723 nhung lai tinh ra la 3388
+# Mismatch at time                46101
+# khi do a=3483ket qua la 1741 nhung lai tinh ra la 3406
+# Mismatch at time                46401
+# khi do a= 695ket qua la  347 nhung lai tinh ra la 2012
+# Mismatch at time                46701
+# khi do a= 887ket qua la  443 nhung lai tinh ra la 2108
+# Mismatch at time                46801
+# khi do a=1973ket qua la  986 nhung lai tinh ra la 2651
+# Mismatch at time                47001
+# khi do a=1799ket qua la  899 nhung lai tinh ra la 2564
+# Mismatch at time                47201
+# khi do a=3561ket qua la 1780 nhung lai tinh ra la 3445
+# Mismatch at time                47301
+# khi do a=2955ket qua la 1477 nhung lai tinh ra la 3142
+# Mismatch at time                47401
+# khi do a=3841ket qua la 1920 nhung lai tinh ra la 3585
+# Mismatch at time                47501
+# khi do a=3035ket qua la 1517 nhung lai tinh ra la 3182
+# Mismatch at time                47801
+# khi do a=2757ket qua la 1378 nhung lai tinh ra la 3043
+# Mismatch at time                48001
+# khi do a=1199ket qua la  599 nhung lai tinh ra la 2264
+# Mismatch at time                48201
+# khi do a=2479ket qua la 1239 nhung lai tinh ra la 2904
+# Mismatch at time                48301
+# khi do a=3817ket qua la 1908 nhung lai tinh ra la 3573
+# Mismatch at time                48601
+# khi do a=1775ket qua la  887 nhung lai tinh ra la 2552
+# Mismatch at time                48701
+# khi do a=2017ket qua la 1008 nhung lai tinh ra la 2673
+# Mismatch at time                48801
+# khi do a=3221ket qua la 1610 nhung lai tinh ra la 3275
+# Mismatch at time                49101
+# khi do a=3813ket qua la 1906 nhung lai tinh ra la 3571
+# Mismatch at time                49401
+# khi do a=1833ket qua la  916 nhung lai tinh ra la 2581
+# Mismatch at time                49501
+# khi do a=3809ket qua la 1904 nhung lai tinh ra la 3569
+# Mismatch at time                49601
+# khi do a= 631ket qua la  315 nhung lai tinh ra la 1980
+# Mismatch at time                49801
+# khi do a=1409ket qua la  704 nhung lai tinh ra la 2369
+# Mismatch at time                49901
+# khi do a=2517ket qua la 1258 nhung lai tinh ra la 2923
+# Mismatch at time                50301
+# khi do a= 783ket qua la  391 nhung lai tinh ra la 2056
+# Mismatch at time                50401
+# khi do a=2289ket qua la 1144 nhung lai tinh ra la 2809
+# Mismatch at time                50501
+# khi do a=3197ket qua la 1598 nhung lai tinh ra la 3263
+# Mismatch at time                50901
+# khi do a=1705ket qua la  852 nhung lai tinh ra la 2517
+# Mismatch at time                51001
+# khi do a= 495ket qua la  247 nhung lai tinh ra la 1912
+# Mismatch at time                51101
+# khi do a=  91ket qua la   45 nhung lai tinh ra la 1710
+# Mismatch at time                51201
+# khi do a=3247ket qua la 1623 nhung lai tinh ra la 3288
+# Mismatch at time                51401
+# khi do a=3513ket qua la 1756 nhung lai tinh ra la 3421
+# Mismatch at time                51501
+# khi do a=3347ket qua la 1673 nhung lai tinh ra la 3338
+# Mismatch at time                51601
+# khi do a=1299ket qua la  649 nhung lai tinh ra la 2314
+# Mismatch at time                51701
+# khi do a= 357ket qua la  178 nhung lai tinh ra la 1843
+# Mismatch at time                51801
+# khi do a=1873ket qua la  936 nhung lai tinh ra la 2601
+# Mismatch at time                51901
+# khi do a=2743ket qua la 1371 nhung lai tinh ra la 3036
+# Mismatch at time                52001
+# khi do a= 153ket qua la   76 nhung lai tinh ra la 1741
+# Mismatch at time                52201
+# khi do a=2673ket qua la 1336 nhung lai tinh ra la 3001
+# Mismatch at time                52601
+# khi do a=1149ket qua la  574 nhung lai tinh ra la 2239
+# Mismatch at time                52701
+# khi do a=3929ket qua la 1964 nhung lai tinh ra la 3629
+# Mismatch at time                52801
+# khi do a= 997ket qua la  498 nhung lai tinh ra la 2163
+# Mismatch at time                52901
+# khi do a=3053ket qua la 1526 nhung lai tinh ra la 3191
+# Mismatch at time                53001
+# khi do a= 201ket qua la  100 nhung lai tinh ra la 1765
+# Mismatch at time                53101
+# khi do a=3137ket qua la 1568 nhung lai tinh ra la 3233
+# Mismatch at time                53201
+# khi do a= 431ket qua la  215 nhung lai tinh ra la 1880
+# Mismatch at time                53301
+# khi do a=3291ket qua la 1645 nhung lai tinh ra la 3310
+# Mismatch at time                53401
+# khi do a=2253ket qua la 1126 nhung lai tinh ra la 2791
+# Mismatch at time                53801
+# khi do a=3517ket qua la 1758 nhung lai tinh ra la 3423
+# Mismatch at time                54201
+# khi do a=1147ket qua la  573 nhung lai tinh ra la 2238
+# Mismatch at time                54301
+# khi do a=2085ket qua la 1042 nhung lai tinh ra la 2707
+# Mismatch at time                54701
+# khi do a=2851ket qua la 1425 nhung lai tinh ra la 3090
+# Mismatch at time                54801
+# khi do a=2937ket qua la 1468 nhung lai tinh ra la 3133
+# Mismatch at time                55001
+# khi do a=1723ket qua la  861 nhung lai tinh ra la 2526
+# Mismatch at time                55201
+# khi do a=1139ket qua la  569 nhung lai tinh ra la 2234
+# Mismatch at time                55601
+# khi do a=3161ket qua la 1580 nhung lai tinh ra la 3245
+# Mismatch at time                55701
+# khi do a=4025ket qua la 2012 nhung lai tinh ra la 3677
+# Mismatch at time                55801
+# khi do a= 179ket qua la   89 nhung lai tinh ra la 1754
+# Mismatch at time                56001
+# khi do a= 629ket qua la  314 nhung lai tinh ra la 1979
+# Mismatch at time                56201
+# khi do a=2617ket qua la 1308 nhung lai tinh ra la 2973
+# Mismatch at time                56401
+# khi do a=3605ket qua la 1802 nhung lai tinh ra la 3467
+# Mismatch at time                56501
+# khi do a=2309ket qua la 1154 nhung lai tinh ra la 2819
+# Mismatch at time                57001
+# khi do a= 909ket qua la  454 nhung lai tinh ra la 2119
+# Mismatch at time                57101
+# khi do a=3759ket qua la 1879 nhung lai tinh ra la 3544
+# Mismatch at time                57401
+# khi do a=3061ket qua la 1530 nhung lai tinh ra la 3195
+# Mismatch at time                57601
+# khi do a=3451ket qua la 1725 nhung lai tinh ra la 3390
+# Mismatch at time                57801
+# khi do a= 805ket qua la  402 nhung lai tinh ra la 2067
+# Mismatch at time                57901
+# khi do a=1549ket qua la  774 nhung lai tinh ra la 2439
+# Mismatch at time                58101
+# khi do a=2349ket qua la 1174 nhung lai tinh ra la 2839
+# Mismatch at time                58201
+# khi do a=2089ket qua la 1044 nhung lai tinh ra la 2709
+# Mismatch at time                58701
+# khi do a=2721ket qua la 1360 nhung lai tinh ra la 3025
+# Mismatch at time                58801
+# khi do a=3917ket qua la 1958 nhung lai tinh ra la 3623
+# Mismatch at time                58901
+# khi do a=3829ket qua la 1914 nhung lai tinh ra la 3579
+# Mismatch at time                59001
+# khi do a=4085ket qua la 2042 nhung lai tinh ra la 3707
+# Mismatch at time                59101
+# khi do a=3165ket qua la 1582 nhung lai tinh ra la 3247
+# Mismatch at time                59901
+# khi do a=1031ket qua la  515 nhung lai tinh ra la 2180
+# Mismatch at time                60001
+# khi do a=3219ket qua la 1609 nhung lai tinh ra la 3274
+# Mismatch at time                60101
+# khi do a=1109ket qua la  554 nhung lai tinh ra la 2219
+# Mismatch at time                60201
+# khi do a=2999ket qua la 1499 nhung lai tinh ra la 3164
+# Mismatch at time                60301
+# khi do a= 325ket qua la  162 nhung lai tinh ra la 1827
+# Mismatch at time                60401
+# khi do a=2659ket qua la 1329 nhung lai tinh ra la 2994
+# Mismatch at time                60501
+# khi do a=  89ket qua la   44 nhung lai tinh ra la 1709
+# Mismatch at time                61201
+# khi do a=1977ket qua la  988 nhung lai tinh ra la 2653
+# Mismatch at time                61301
+# khi do a=4011ket qua la 2005 nhung lai tinh ra la 3670
+# Mismatch at time                61501
+# khi do a=1391ket qua la  695 nhung lai tinh ra la 2360
+# Mismatch at time                61701
+# khi do a=2117ket qua la 1058 nhung lai tinh ra la 2723
+# Mismatch at time                61801
+# khi do a=1933ket qua la  966 nhung lai tinh ra la 2631
+# Mismatch at time                61901
+# khi do a= 907ket qua la  453 nhung lai tinh ra la 2118
+# Mismatch at time                62301
+# khi do a=3353ket qua la 1676 nhung lai tinh ra la 3341
+# Mismatch at time                62401
+# khi do a= 933ket qua la  466 nhung lai tinh ra la 2131
+# Mismatch at time                62601
+# khi do a= 243ket qua la  121 nhung lai tinh ra la 1786
+# Mismatch at time                63301
+# khi do a=1733ket qua la  866 nhung lai tinh ra la 2531
+# Mismatch at time                63601
+# khi do a=1475ket qua la  737 nhung lai tinh ra la 2402
+# Mismatch at time                63901
+# khi do a=3817ket qua la 1908 nhung lai tinh ra la 3573
+# Mismatch at time                64001
+# khi do a=3523ket qua la 1761 nhung lai tinh ra la 3426
+# Mismatch at time                64101
+# khi do a=1003ket qua la  501 nhung lai tinh ra la 2166
+# Mismatch at time                64401
+# khi do a=3465ket qua la 1732 nhung lai tinh ra la 3397
+# Mismatch at time                64501
+# khi do a= 879ket qua la  439 nhung lai tinh ra la 2104
+# Mismatch at time                64601
+# khi do a=2843ket qua la 1421 nhung lai tinh ra la 3086
+# Mismatch at time                64701
+# khi do a=2221ket qua la 1110 nhung lai tinh ra la 2775
+# Mismatch at time                64901
+# khi do a= 549ket qua la  274 nhung lai tinh ra la 1939
+# Mismatch at time                65001
+# khi do a=1999ket qua la  999 nhung lai tinh ra la 2664
+# Mismatch at time                65101
+# khi do a=3499ket qua la 1749 nhung lai tinh ra la 3414
+# Mismatch at time                65201
+# khi do a= 539ket qua la  269 nhung lai tinh ra la 1934
+# Mismatch at time                65401
+# khi do a=2397ket qua la 1198 nhung lai tinh ra la 2863
+# Mismatch at time                65701
+# khi do a=1367ket qua la  683 nhung lai tinh ra la 2348
+# Mismatch at time                66001
+# khi do a=2169ket qua la 1084 nhung lai tinh ra la 2749
+# Mismatch at time                66701
+# khi do a= 625ket qua la  312 nhung lai tinh ra la 1977
+# Mismatch at time                66801
+# khi do a=4091ket qua la 2045 nhung lai tinh ra la 3710
+# Mismatch at time                67101
+# khi do a=1815ket qua la  907 nhung lai tinh ra la 2572
+# Mismatch at time                67201
+# khi do a=1217ket qua la  608 nhung lai tinh ra la 2273
+# Mismatch at time                67301
+# khi do a= 491ket qua la  245 nhung lai tinh ra la 1910
+# Mismatch at time                67401
+# khi do a=2997ket qua la 1498 nhung lai tinh ra la 3163
+# Mismatch at time                67501
+# khi do a=3721ket qua la 1860 nhung lai tinh ra la 3525
+# Mismatch at time                67601
+# khi do a= 655ket qua la  327 nhung lai tinh ra la 1992
+# Mismatch at time                67701
+# khi do a=1727ket qua la  863 nhung lai tinh ra la 2528
+# Mismatch at time                67901
+# khi do a=2771ket qua la 1385 nhung lai tinh ra la 3050
+# Mismatch at time                68301
+# khi do a=1905ket qua la  952 nhung lai tinh ra la 2617
+# Mismatch at time                68401
+# khi do a=1239ket qua la  619 nhung lai tinh ra la 2284
+# Mismatch at time                68601
+# khi do a=1265ket qua la  632 nhung lai tinh ra la 2297
+# Mismatch at time                68701
+# khi do a=3533ket qua la 1766 nhung lai tinh ra la 3431
+# Mismatch at time                68801
+# khi do a= 773ket qua la  386 nhung lai tinh ra la 2051
+# Mismatch at time                69301
+# khi do a=2661ket qua la 1330 nhung lai tinh ra la 2995
+# Mismatch at time                69401
+# khi do a=1335ket qua la  667 nhung lai tinh ra la 2332
+# Mismatch at time                69501
+# khi do a=1539ket qua la  769 nhung lai tinh ra la 2434
+# Mismatch at time                69701
+# khi do a=3325ket qua la 1662 nhung lai tinh ra la 3327
+# Mismatch at time                70501
+# khi do a= 197ket qua la   98 nhung lai tinh ra la 1763
+# Mismatch at time                70801
+# khi do a=2547ket qua la 1273 nhung lai tinh ra la 2938
+# Mismatch at time                70901
+# khi do a=3067ket qua la 1533 nhung lai tinh ra la 3198
+# Mismatch at time                71001
+# khi do a=3179ket qua la 1589 nhung lai tinh ra la 3254
+# Mismatch at time                71101
+# khi do a=3863ket qua la 1931 nhung lai tinh ra la 3596
+# Mismatch at time                71201
+# khi do a=1551ket qua la  775 nhung lai tinh ra la 2440
+# Mismatch at time                71701
+# khi do a= 203ket qua la  101 nhung lai tinh ra la 1766
+# Mismatch at time                71801
+# khi do a= 619ket qua la  309 nhung lai tinh ra la 1974
+# Mismatch at time                72101
+# khi do a= 397ket qua la  198 nhung lai tinh ra la 1863
+# Mismatch at time                72201
+# khi do a= 225ket qua la  112 nhung lai tinh ra la 1777
+# Mismatch at time                72301
+# khi do a=3461ket qua la 1730 nhung lai tinh ra la 3395
+# Mismatch at time                72401
+# khi do a=1209ket qua la  604 nhung lai tinh ra la 2269
+# Mismatch at time                72501
+# khi do a=1737ket qua la  868 nhung lai tinh ra la 2533
+# Mismatch at time                72901
+# khi do a=3895ket qua la 1947 nhung lai tinh ra la 3612
+# Mismatch at time                73101
+# khi do a=1907ket qua la  953 nhung lai tinh ra la 2618
+# Mismatch at time                73701
+# khi do a=3907ket qua la 1953 nhung lai tinh ra la 3618
+# Mismatch at time                73901
+# khi do a=2721ket qua la 1360 nhung lai tinh ra la 3025
+# Mismatch at time                74001
+# khi do a=3923ket qua la 1961 nhung lai tinh ra la 3626
+# Mismatch at time                74201
+# khi do a=3423ket qua la 1711 nhung lai tinh ra la 3376
+# Mismatch at time                74301
+# khi do a= 647ket qua la  323 nhung lai tinh ra la 1988
+# Mismatch at time                74501
+# khi do a= 301ket qua la  150 nhung lai tinh ra la 1815
+# Mismatch at time                74701
+# khi do a=2155ket qua la 1077 nhung lai tinh ra la 2742
+# Mismatch at time                74801
+# khi do a=2097ket qua la 1048 nhung lai tinh ra la 2713
+# Mismatch at time                75101
+# khi do a=2829ket qua la 1414 nhung lai tinh ra la 3079
+# Mismatch at time                75201
+# khi do a= 789ket qua la  394 nhung lai tinh ra la 2059
+# Mismatch at time                75701
+# khi do a=1299ket qua la  649 nhung lai tinh ra la 2314
+# Mismatch at time                75801
+# khi do a=1731ket qua la  865 nhung lai tinh ra la 2530
+# Mismatch at time                75901
+# khi do a=3821ket qua la 1910 nhung lai tinh ra la 3575
+# Mismatch at time                76201
+# khi do a=3367ket qua la 1683 nhung lai tinh ra la 3348
+# Mismatch at time                76301
+# khi do a=1631ket qua la  815 nhung lai tinh ra la 2480
+# Mismatch at time                76401
+# khi do a=2851ket qua la 1425 nhung lai tinh ra la 3090
+# Mismatch at time                76501
+# khi do a=2987ket qua la 1493 nhung lai tinh ra la 3158
+# Mismatch at time                76801
+# khi do a=3529ket qua la 1764 nhung lai tinh ra la 3429
+# Mismatch at time                76901
+# khi do a=3271ket qua la 1635 nhung lai tinh ra la 3300
+# Mismatch at time                77201
+# khi do a= 711ket qua la  355 nhung lai tinh ra la 2020
+# Mismatch at time                77401
+# khi do a=4059ket qua la 2029 nhung lai tinh ra la 3694
+# Mismatch at time                77601
+# khi do a=3957ket qua la 1978 nhung lai tinh ra la 3643
+# Mismatch at time                77701
+# khi do a=3509ket qua la 1754 nhung lai tinh ra la 3419
+# Mismatch at time                78301
+# khi do a=2723ket qua la 1361 nhung lai tinh ra la 3026
+# Mismatch at time                78501
+# khi do a=3941ket qua la 1970 nhung lai tinh ra la 3635
+# Mismatch at time                78901
+# khi do a=  91ket qua la   45 nhung lai tinh ra la 1710
+# Mismatch at time                79201
+# khi do a= 567ket qua la  283 nhung lai tinh ra la 1948
+# Mismatch at time                79401
+# khi do a= 693ket qua la  346 nhung lai tinh ra la 2011
+# Mismatch at time                79501
+# khi do a=2385ket qua la 1192 nhung lai tinh ra la 2857
+# Mismatch at time                79601
+# khi do a=1411ket qua la  705 nhung lai tinh ra la 2370
+# Mismatch at time                79701
+# khi do a= 923ket qua la  461 nhung lai tinh ra la 2126
+# Mismatch at time                79801
+# khi do a=3381ket qua la 1690 nhung lai tinh ra la 3355
+# Mismatch at time                80001
+# khi do a= 763ket qua la  381 nhung lai tinh ra la 2046
+# Mismatch at time                80101
+# khi do a=2895ket qua la 1447 nhung lai tinh ra la 3112
+# Mismatch at time                80401
+# khi do a=2269ket qua la 1134 nhung lai tinh ra la 2799
+# Mismatch at time                80601
+# khi do a=3937ket qua la 1968 nhung lai tinh ra la 3633
+# Mismatch at time                80701
+# khi do a=2137ket qua la 1068 nhung lai tinh ra la 2733
+# Mismatch at time                80801
+# khi do a= 853ket qua la  426 nhung lai tinh ra la 2091
+# Mismatch at time                80901
+# khi do a=1839ket qua la  919 nhung lai tinh ra la 2584
+# Mismatch at time                81001
+# khi do a=  11ket qua la    5 nhung lai tinh ra la 1670
+# Mismatch at time                81201
+# khi do a=3283ket qua la 1641 nhung lai tinh ra la 3306
+# Mismatch at time                81401
+# khi do a=2537ket qua la 1268 nhung lai tinh ra la 2933
+# Mismatch at time                81601
+# khi do a= 469ket qua la  234 nhung lai tinh ra la 1899
+# Mismatch at time                81701
+# khi do a=1475ket qua la  737 nhung lai tinh ra la 2402
+# Mismatch at time                82201
+# khi do a=2063ket qua la 1031 nhung lai tinh ra la 2696
+# Mismatch at time                82301
+# khi do a=1155ket qua la  577 nhung lai tinh ra la 2242
+# Mismatch at time                82601
+# khi do a=3007ket qua la 1503 nhung lai tinh ra la 3168
+# Mismatch at time                82701
+# khi do a=2885ket qua la 1442 nhung lai tinh ra la 3107
+# Mismatch at time                82801
+# khi do a=3703ket qua la 1851 nhung lai tinh ra la 3516
+# Mismatch at time                82901
+# khi do a=2885ket qua la 1442 nhung lai tinh ra la 3107
+# Mismatch at time                83001
+# khi do a= 117ket qua la   58 nhung lai tinh ra la 1723
+# Mismatch at time                83501
+# khi do a= 817ket qua la  408 nhung lai tinh ra la 2073
+# Mismatch at time                83801
+# khi do a=3759ket qua la 1879 nhung lai tinh ra la 3544
+# Mismatch at time                84001
+# khi do a=1641ket qua la  820 nhung lai tinh ra la 2485
+# Mismatch at time                84301
+# khi do a=1157ket qua la  578 nhung lai tinh ra la 2243
+# Mismatch at time                84801
+# khi do a= 467ket qua la  233 nhung lai tinh ra la 1898
+# Mismatch at time                85001
+# khi do a=3323ket qua la 1661 nhung lai tinh ra la 3326
+# Mismatch at time                85101
+# khi do a= 651ket qua la  325 nhung lai tinh ra la 1990
+# Mismatch at time                85401
+# khi do a= 881ket qua la  440 nhung lai tinh ra la 2105
+# Mismatch at time                85601
+# khi do a=2913ket qua la 1456 nhung lai tinh ra la 3121
+# Mismatch at time                85701
+# khi do a=2171ket qua la 1085 nhung lai tinh ra la 2750
+# Mismatch at time                85801
+# khi do a= 191ket qua la   95 nhung lai tinh ra la 1760
+# Mismatch at time                85901
+# khi do a=3217ket qua la 1608 nhung lai tinh ra la 3273
+# Mismatch at time                86101
+# khi do a= 857ket qua la  428 nhung lai tinh ra la 2093
+# Mismatch at time                86401
+# khi do a= 593ket qua la  296 nhung lai tinh ra la 1961
+# Mismatch at time                86501
+# khi do a=2121ket qua la 1060 nhung lai tinh ra la 2725
+# Mismatch at time                86601
+# khi do a=3559ket qua la 1779 nhung lai tinh ra la 3444
+# Mismatch at time                86801
+# khi do a=1411ket qua la  705 nhung lai tinh ra la 2370
+# Mismatch at time                86901
+# khi do a=  91ket qua la   45 nhung lai tinh ra la 1710
+# Mismatch at time                87001
+# khi do a= 441ket qua la  220 nhung lai tinh ra la 1885
+# Mismatch at time                87101
+# khi do a=3989ket qua la 1994 nhung lai tinh ra la 3659
+# Mismatch at time                87201
+# khi do a=2679ket qua la 1339 nhung lai tinh ra la 3004
+# Mismatch at time                87301
+# khi do a=2801ket qua la 1400 nhung lai tinh ra la 3065
+# Mismatch at time                87501
+# khi do a=3759ket qua la 1879 nhung lai tinh ra la 3544
+# Mismatch at time                87901
+# khi do a=2219ket qua la 1109 nhung lai tinh ra la 2774
+# Mismatch at time                88101
+# khi do a= 319ket qua la  159 nhung lai tinh ra la 1824
+# Mismatch at time                88301
+# khi do a=2419ket qua la 1209 nhung lai tinh ra la 2874
+# Mismatch at time                88801
+# khi do a=1979ket qua la  989 nhung lai tinh ra la 2654
+# Mismatch at time                89101
+# khi do a=3295ket qua la 1647 nhung lai tinh ra la 3312
+# Mismatch at time                89301
+# khi do a=3487ket qua la 1743 nhung lai tinh ra la 3408
+# Mismatch at time                89601
+# khi do a=3005ket qua la 1502 nhung lai tinh ra la 3167
+# Mismatch at time                89701
+# khi do a=1963ket qua la  981 nhung lai tinh ra la 2646
+# Mismatch at time                90001
+# khi do a=2953ket qua la 1476 nhung lai tinh ra la 3141
+# Mismatch at time                90101
+# khi do a=1043ket qua la  521 nhung lai tinh ra la 2186
+# Mismatch at time                90301
+# khi do a= 821ket qua la  410 nhung lai tinh ra la 2075
+# Mismatch at time                90401
+# khi do a=3899ket qua la 1949 nhung lai tinh ra la 3614
+# Mismatch at time                90501
+# khi do a=1077ket qua la  538 nhung lai tinh ra la 2203
+# Mismatch at time                90601
+# khi do a=3375ket qua la 1687 nhung lai tinh ra la 3352
+# Mismatch at time                90801
+# khi do a= 597ket qua la  298 nhung lai tinh ra la 1963
+# Mismatch at time                91101
+# khi do a=1703ket qua la  851 nhung lai tinh ra la 2516
+# Mismatch at time                91201
+# khi do a= 193ket qua la   96 nhung lai tinh ra la 1761
+# Mismatch at time                91401
+# khi do a= 577ket qua la  288 nhung lai tinh ra la 1953
+# Mismatch at time                91501
+# khi do a=3177ket qua la 1588 nhung lai tinh ra la 3253
+# Mismatch at time                91701
+# khi do a= 205ket qua la  102 nhung lai tinh ra la 1767
+# Mismatch at time                91801
+# khi do a=1023ket qua la  511 nhung lai tinh ra la 2176
+# Mismatch at time                91901
+# khi do a=1717ket qua la  858 nhung lai tinh ra la 2523
+# Mismatch at time                92101
+# khi do a=3147ket qua la 1573 nhung lai tinh ra la 3238
+# Mismatch at time                92301
+# khi do a=3895ket qua la 1947 nhung lai tinh ra la 3612
+# Mismatch at time                93301
+# khi do a=2793ket qua la 1396 nhung lai tinh ra la 3061
+# Mismatch at time                93401
+# khi do a= 747ket qua la  373 nhung lai tinh ra la 2038
+# Mismatch at time                93501
+# khi do a=1803ket qua la  901 nhung lai tinh ra la 2566
+# Mismatch at time                93901
+# khi do a= 325ket qua la  162 nhung lai tinh ra la 1827
+# Mismatch at time                94001
+# khi do a=1163ket qua la  581 nhung lai tinh ra la 2246
+# Mismatch at time                94201
+# khi do a=3383ket qua la 1691 nhung lai tinh ra la 3356
+# Mismatch at time                94301
+# khi do a=1667ket qua la  833 nhung lai tinh ra la 2498
+# Mismatch at time                94401
+# khi do a= 225ket qua la  112 nhung lai tinh ra la 1777
+# Mismatch at time                94701
+# khi do a= 981ket qua la  490 nhung lai tinh ra la 2155
+# Mismatch at time                94801
+# khi do a=1997ket qua la  998 nhung lai tinh ra la 2663
+# Mismatch at time                95301
+# khi do a=3811ket qua la 1905 nhung lai tinh ra la 3570
+# Mismatch at time                95501
+# khi do a= 499ket qua la  249 nhung lai tinh ra la 1914
+# Mismatch at time                95601
+# khi do a=1837ket qua la  918 nhung lai tinh ra la 2583
+# Mismatch at time                95801
+# khi do a=1501ket qua la  750 nhung lai tinh ra la 2415
+# Mismatch at time                96001
+# khi do a=2703ket qua la 1351 nhung lai tinh ra la 3016
+# Mismatch at time                96101
+# khi do a=1023ket qua la  511 nhung lai tinh ra la 2176
+# Mismatch at time                96301
+# khi do a=2475ket qua la 1237 nhung lai tinh ra la 2902
+# Mismatch at time                96401
+# khi do a=1831ket qua la  915 nhung lai tinh ra la 2580
+# Mismatch at time                96501
+# khi do a=4091ket qua la 2045 nhung lai tinh ra la 3710
+# Mismatch at time                96601
+# khi do a= 787ket qua la  393 nhung lai tinh ra la 2058
+# Mismatch at time                96801
+# khi do a=1979ket qua la  989 nhung lai tinh ra la 2654
+# Mismatch at time                97001
+# khi do a=2633ket qua la 1316 nhung lai tinh ra la 2981
+# Mismatch at time                97501
+# khi do a=1545ket qua la  772 nhung lai tinh ra la 2437
+# Mismatch at time                97701
+# khi do a=1213ket qua la  606 nhung lai tinh ra la 2271
+# Mismatch at time                98001
+# khi do a=1397ket qua la  698 nhung lai tinh ra la 2363
+# Mismatch at time                98101
+# khi do a=2703ket qua la 1351 nhung lai tinh ra la 3016
+# Mismatch at time                98201
+# khi do a=1429ket qua la  714 nhung lai tinh ra la 2379
+# Mismatch at time                98301
+# khi do a=3451ket qua la 1725 nhung lai tinh ra la 3390
+# Mismatch at time                98501
+# khi do a= 111ket qua la   55 nhung lai tinh ra la 1720
+# Mismatch at time                98601
+# khi do a=3273ket qua la 1636 nhung lai tinh ra la 3301
+# Mismatch at time                98701
+# khi do a= 201ket qua la  100 nhung lai tinh ra la 1765
+# Mismatch at time                99001
+# khi do a=2221ket qua la 1110 nhung lai tinh ra la 2775
+# Mismatch at time                99101
+# khi do a= 479ket qua la  239 nhung lai tinh ra la 1904
+# Mismatch at time                99201
+# khi do a= 781ket qua la  390 nhung lai tinh ra la 2055
+# Mismatch at time                99401
+# khi do a=1923ket qua la  961 nhung lai tinh ra la 2626
+# Mismatch at time                99501
+# khi do a=1105ket qua la  552 nhung lai tinh ra la 2217
+# Mismatch at time                99801
+# khi do a=1273ket qua la  636 nhung lai tinh ra la 2301
+add wave -position insertpoint sim:/modhalfq_tb/*
+add wave -position insertpoint sim:/modhalfq_tb/imodhalfq/*
+restart -f
+# Compile of fflopx.v was successful.
+# Compile of modhalfq.v was successful.
+# Compile of modhalfq_tb.v was successful.
+# Compile of mux_xx1.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq_tb
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq_tb
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.modhalfq
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.modhalfq
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.fflopx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.fflopx
+# Refreshing K:/kyber90sfpga/Example/modelsim-modhalfq2/work.mux_xx1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mux_xx1
+vsim -novopt -suppress 12110,8891 work.modhalfq_tb
+# End time: 10:39:13 on Apr 02,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 1, Suppressed Warnings: 1
+# vsim -novopt -suppress 12110,8891 work.modhalfq_tb 
+# Start time: 10:39:13 on Apr 02,2022
+# Loading work.modhalfq_tb
+# Loading work.modhalfq
+# Loading work.fflopx
+# Loading work.mux_xx1
+add wave -position insertpoint sim:/modhalfq_tb/*
+add wave -position insertpoint sim:/modhalfq_tb/imodhalfq/*
+run
+# End time: 10:58:58 on Apr 02,2022, Elapsed time: 0:19:45
+# Errors: 0, Warnings: 1, Suppressed Warnings: 1
