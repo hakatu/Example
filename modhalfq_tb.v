@@ -1,5 +1,5 @@
 module modhalfq_tb ();
-parameter WIDTH = 12;
+parameter WIDTH = 13;
 
 reg [WIDTH-1:0] a,c,d;
 reg clk,rst;
